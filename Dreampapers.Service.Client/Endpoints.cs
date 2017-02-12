@@ -1,4 +1,4 @@
-﻿namespace Dreampapers.UI.Service.Client
+﻿namespace Dreampapers.Service.Client
 {
     public static class Endpoints
     {

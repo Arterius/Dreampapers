@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{93E03A5C-A0CB-4FF0-B781-A9C20BDB2DC3}</ProjectGuid>
+    <ProjectGuid>{5744147d-8239-49bd-8816-462547f563af}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dreampapers.UI.Service.Client</RootNamespace>
-    <AssemblyName>Dreampapers.UI.Service.Client</AssemblyName>
+    <RootNamespace>Dreampapers.Business</RootNamespace>
+    <AssemblyName>Dreampapers.Business</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
@@ -107,17 +107,9 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Endpoints.cs" />
-    <Compile Include="Helpers\XmlHelper.cs" />
-    <Compile Include="IHttpClient.cs" />
-    <Compile Include="WallpaperServiceClient.cs" />
-    <Compile Include="IServiceClient.cs" />
-    <Compile Include="Model\WallpaperCategory.cs" />
-    <Compile Include="Model\WallpaperCategoryCollection.cs" />
-    <Compile Include="Model\WallpaperThumb.cs" />
-    <Compile Include="Model\WallpaperThumbCollection.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Properties\Dreampapers.UI.Service.Client.rd.xml" />
+    <EmbeddedResource Include="Properties\Dreampapers.Business.rd.xml" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

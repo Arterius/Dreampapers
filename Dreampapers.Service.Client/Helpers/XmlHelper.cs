@@ -5,7 +5,7 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
-namespace Dreampapers.UI.Service.Client.Helpers
+namespace Dreampapers.Service.Client.Helpers
 {
     public static class XmlHelper
     {

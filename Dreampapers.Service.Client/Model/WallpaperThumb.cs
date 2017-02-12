@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace Dreampapers.UI.Service.Client.Model
+namespace Dreampapers.Service.Client.Model
 {
     public class WallpaperThumb
     {

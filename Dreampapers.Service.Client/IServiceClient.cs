@@ -1,11 +1,7 @@
-﻿using Dreampapers.UI.Service.Client.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Dreampapers.Service.Client.Model;
 
-namespace Dreampapers.UI.Service.Client
+namespace Dreampapers.Service.Client
 {
     public interface IServiceClient
     {

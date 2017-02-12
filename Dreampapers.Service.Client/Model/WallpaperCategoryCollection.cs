@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace Dreampapers.UI.Service.Client.Model
+namespace Dreampapers.Service.Client.Model
 {
     [XmlRoot("categories")]
     public class WallpaperCategoryCollection

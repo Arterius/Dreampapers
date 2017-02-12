@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using Dreampapers.UI.Service.Client.Helpers;
-using Dreampapers.UI.Service.Client.Model;
+using Dreampapers.Service.Client.Helpers;
+using Dreampapers.Service.Client.Model;
 
-namespace Dreampapers.UI.Service.Client
+namespace Dreampapers.Service.Client
 {
     public enum ServiceCommand
     {

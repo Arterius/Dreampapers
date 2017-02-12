@@ -3,7 +3,7 @@ using Windows.Foundation;
 using Windows.Web.Http;
 using Windows.Web.Http.Headers;
 
-namespace Dreampapers.UI.Service.Client
+namespace Dreampapers.Service.Client
 {
     public interface IHttpClient
     {

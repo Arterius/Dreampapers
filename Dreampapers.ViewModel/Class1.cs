@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dreampapers.UI.ViewModel
+namespace Dreampapers.ViewModel
 {
     public class Class1
     {
